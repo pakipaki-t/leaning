@@ -1,0 +1,28 @@
+header
+    grid-column: full-start / full-end
+    background-image: url("../img/Rectangle.png") 
+    
+.header__top
+    display: grid
+    grid-template-columns: repeat(12,[col-start] minmax(min-content, 6rem))
+    grid-gap: 3rem
+    justify-content: center
+.header__title
+    font-weight: 500
+    font-size: 6.4rem
+    letter-spaces: 2%
+    margin-bottom: 3.5rem
+    color: white
+img
+    grid-column: 1 / 2
+.menu
+    grid-column: 12 / 13
+    width: 5rem
+    height: 5rem
+    background-color: $color-accent
+.title-contener
+    display: flex
+    flex-direction: column
+    height: 100%
+    align-items: center
+    justify-content: center

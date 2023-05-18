@@ -1,0 +1,60 @@
+.big-progect
+    grid-column: center-start / center-end
+    background-color: white
+    transform: translateY(-13rem)
+    &__box-one
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr))
+        justify-items: center
+        grid-gap: 4rem 6rem
+        margin-bottom: 10rem
+
+    &__title
+        text-align: center
+        margin-bottom: 6rem
+
+    &__cards
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr))
+        grid-gap: 2rem
+        
+
+    &__cart
+        display: flex
+        flex-direction: column
+        // width: 35rem
+
+.box-one
+    display: flex
+    weight: 19rem
+    height: 18.6rem
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    
+
+.item
+    &__figure
+        font-weight: 500
+        font-size: 7.2rem
+        color: $color-accent
+    &__bigtitle
+        font-weight: 500
+        font-size: 3.6rem
+        color: $color-black
+    &__littletitle
+        font-weight: 500
+        font-size: 1.8rem
+        Line-height: 2.7rem
+        color: $grey-lite
+
+.img-cart
+    margin-bottom: 4.5rem    
+
+.cart-line
+    width: 5.5rem
+    height: .6rem
+    background-color: $color-accent
+    margin-bottom: 1.5rem
+.cart-title
+    margin-bottom: 2rem

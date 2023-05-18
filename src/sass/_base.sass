@@ -1,0 +1,20 @@
+$color-white: #FFFFFF
+$grey-dark: #404149
+$grey-lite: #999999
+$color-accent: #F7654A
+$color-black: #000000
+
+
+html
+    font-size: 62.5%
+    font-family: "Oswald", sans-serif
+
+.contener
+    display: grid
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(12,[col-start] minmax(min-content, 6rem)) [center-end] minmax(6rem, 1fr) [full-end]
+    grid-template-rows: 100vh repeat(11, min-content)
+    grid-gap: 0rem 3rem
+    &>*
+        font-size: 25px
+        padding: 40px
+      
